@@ -77,7 +77,9 @@ class BasePage():
         """Wait for the container to load.
 
         If the container field of the locator class exists,
-        it is searched until the time expires or the condition occurs (appearance).
+        it is searched until the time expires or the condition
+        occurs (appearance).
+
         Args:
             wait (int, optional): Waiting time in seconds. Defaults to 5.
             appearance (bool, optional): If True, the element is expected to
@@ -86,9 +88,11 @@ class BasePage():
         """
         if not hasattr(self.locators, 'CONTAINER'):
             return
+        msg = f'Failed while waiting for the {} container'\
+            .format(self.__class__.__name__)
         self.find_element(
             locator=self.locators.CONTAINER,
             wait=wait,
             appearance=appearance,
-            message=f'Failed while waiting for the {self.__class__.__name__} container'
+            message=msg
         )
