@@ -13,6 +13,7 @@ def go_to_home(browser):
     """go to the home page before each test case."""
     browser.get(START_LINK)
 
+
 @pytest.fixture(scope="session")
 def browser():
     """Open the browser once for all tests."""

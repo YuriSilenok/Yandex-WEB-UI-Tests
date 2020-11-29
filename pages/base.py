@@ -17,7 +17,7 @@ class BasePage():
         An attempt is made to wait for the container.
         Args:
             browser (WebDriver): a reference to an instance of the browser.
-            locators (class): link to the class with locators for this page. 
+            locators (class): link to the class with locators for this page.
         """
         self.browser = browser
         self.action = ActionChains(browser)
