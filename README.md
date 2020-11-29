@@ -14,7 +14,7 @@ rootdir: C:\Users\silen\Documents\GitHub\Yandex-WEB-UI-Tests
 plugins: cov-2.9.0
 collected 2 items                                                                                                                                                                                                                                                       
 
-tests\test_global_search_on_yandex.py F                                                                                                                                                                                                                           [ 50%]
+tests\test_global_search_on_yandex.py F                                                                                                                                                                                                                           [ 50%] 
 tests\test_image_search_on_yandex.py .                                                                                                                                                                                                                           [100%] 
 
 ============================================================================================================================== FAILURES =============================================================================================================================== 
