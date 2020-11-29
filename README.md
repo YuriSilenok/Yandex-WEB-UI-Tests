@@ -2,9 +2,6 @@
 
 Этот репозиторий реализует "[Тестовое задание на позицию разработчика в тестировании](docs/technical_specification/READMY.md)"
 
-С технической документацией Вы можете ознакмиться в разделе [Wiki](https://github.com/YuriSilenok/Yandex-WEB-UI-Tests/wiki)
-
-
 Ниже представлен отчет о выполнении тестировая
 
 ```
@@ -55,3 +52,5 @@ tests\test_global_search_on_yandex.py:32: AssertionError
 FAILED tests/test_global_search_on_yandex.py::test_global_search_on_yandex - AssertionError: The tensor.ru is not found in the https://vk.com/tensor_company search result header link
 ==================================================================================================================== 1 failed, 1 passed in 24.98s =====================================================================================================================
 ```
+
+Проект не использует дополнительных пакетов, для запуска тестов достаточно выполнить команду `pytest` из корневого каталога.
