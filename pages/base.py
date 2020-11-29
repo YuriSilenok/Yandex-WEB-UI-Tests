@@ -88,7 +88,7 @@ class BasePage():
         """
         if not hasattr(self.locators, 'CONTAINER'):
             return
-        msg = f'Failed while waiting for the {} container'\
+        msg = 'Failed while waiting for the {} container'\
             .format(self.__class__.__name__)
         self.find_element(
             locator=self.locators.CONTAINER,
