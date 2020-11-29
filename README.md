@@ -15,7 +15,6 @@ plugins: cov-2.9.0
 collected 2 items                                                                                                                                                                                                                                                       
 
 tests\test_global_search_on_yandex.py
-DevTools listening on ws://127.0.0.1:51414/devtools/browser/be974a1a-d2b2-4442-84c4-98c0aaaf3687
 F                                                                                                                                                                                                                           [ 50%]
 tests\test_image_search_on_yandex.py .                                                                                                                                                                                                                           [100%] 
 
